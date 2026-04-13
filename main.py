@@ -21,7 +21,7 @@ app.add_middleware(
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
-DEFAULT_ADMIN_ID = "8402806341"
+DEFAULT_ADMIN_ID = "7616065999"
 
 # --- CORE FUNCTIONS (THE "FXN" LIST) ---
 @app.post("/user-info")
